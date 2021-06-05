@@ -1,2 +1,2 @@
 # DrumMachine
-Frontend application simulating drum machine functionality 
+Frontend application simulating drum machine functionality.
