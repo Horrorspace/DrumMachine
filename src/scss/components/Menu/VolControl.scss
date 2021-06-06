@@ -1,0 +1,22 @@
+.VolControl {
+    order: 4;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background: #000000;
+      height: 10px;
+      vertical-align: middle;
+
+      &:active, &:focus {
+        outline: none;
+      }
+
+      
+    &::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 8px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: $switchColor; /* Green background */
+    cursor: pointer; /* Cursor on hover */}
+}

@@ -1,0 +1,17 @@
+@import "Pads/pad.scss";
+
+
+.PadsWrap {
+    @include flex-content(center, row);
+    width: 500px;
+    height: 500px;
+    background-color: $menuBacground;
+    border: 1px solid $borderColor;
+  }
+  
+  .PadsContainer {
+    width: 500px;
+    height: 500px;
+  
+    background-color: $menuBacground;
+  }

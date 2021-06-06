@@ -1,0 +1,16 @@
+@import "Menu/BankControl.scss";
+@import "Menu/display.scss";
+@import "Menu/switch.scss";
+@import "Menu/VolControl.scss";
+
+
+
+.MenuWrap {
+    background-color: $menuBacground;
+    width: 300px;
+    height: 500px;
+    @include flex-content(space-between, column);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 1px solid $borderColor;
+  }

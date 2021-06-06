@@ -1,0 +1,7 @@
+.drum-pad {
+    @include flex-content(center, row);
+    @include font(#000000, Oxanium, 18px, 700);
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+  }

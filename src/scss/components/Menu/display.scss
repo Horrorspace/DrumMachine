@@ -1,0 +1,11 @@
+.display {
+    background-color: black;
+    height: 50px;
+    width: 220px;
+    @include flex-content(center, row);
+    order: 2;
+  }
+  
+  .displayText {
+    @include font(#FFFFFF, Oxanium, 18px, 700);
+  }

@@ -1,0 +1,19 @@
+.BankControl {
+    @include font(#FFFFFF, Oxanium, 18px, 700);
+    order: 3;
+    display: block;
+    background-color: black;
+    text-transform: none;
+    width: 120px;
+     -moz-appearance: none;
+   -webkit-appearance: none;
+  
+    
+  }
+  
+  .dropdown-item {
+    @include font(#FFFFFF, Oxanium, 18px, 700);
+    display: block;
+    background-color: black;
+    text-transform: none;
+  }

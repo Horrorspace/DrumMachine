@@ -1,0 +1,15 @@
+.MainWrap{
+    width: 100%;
+    min-height: 100vh;
+    background-color: $mainColor;
+    
+    @include flex-content(center, column);
+  }
+  
+  .AppWrap {
+    width: 1200px;
+    height: 700px;
+  
+    
+    @include flex-content(center, row);
+  }

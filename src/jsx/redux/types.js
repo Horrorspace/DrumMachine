@@ -1,0 +1,10 @@
+export const getNewMessage = 'getNewMessage';
+export const playSound = 'playSound';
+export const changeActivePad = 'changeActivePad';
+export const changeVol = 'changeVol';
+export const switchPower = 'switchPower';
+export const changeBank = 'changeBank';
+export const pushButton = 'pushButton';
+export const clickButton = 'clickButton';
+export const togglePlay = 'togglePlay';
+export const stopSound = 'stopSound';
